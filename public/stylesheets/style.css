@@ -93,7 +93,7 @@ h1 {
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: red;
+    color: red !important;
     font-weight: bold;
 }
 
@@ -107,7 +107,7 @@ h1 {
 }
 
 .navbar {
-    background: black;
+    background: black !important;
 }
 
 #photo {
