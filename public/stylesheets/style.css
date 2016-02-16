@@ -1,0 +1,153 @@
+body {
+    background-color: darkgrey;
+    position: relative;
+    font-family: Ubuntu;
+}
+
+.buffer{
+    padding-top:2vh;
+}
+@-webkit-keyframes blink{
+    0%{opacity:0;}
+    50%{opacity:1;}
+    100%{opacity:0;}
+}
+.blinky{
+    -webkit-animation: blink 5s infinite;
+}
+h2 {
+    text-align: center;
+    color: white;
+}
+
+.navbar-default .navbar-header > a {
+    font-weight: bold;
+    color: magenta;
+}
+
+.img1 {
+    border-radius: 50%;
+    width: 25vw;
+    margin-top:10vh;
+}
+
+.navbar-default .navbar-header > a:hover {
+    font-weight: bold;
+    color: white;
+}
+
+#home {
+    background-image: url("http://s2.postimg.org/bwnkvpyvd/Home.png");
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 25vh;
+    height: 100vh;
+}
+
+#portfolio {
+    background-image: url("https://drscdn.500px.org/photo/75565631/m%3D2048/10d461f49ecdb1d6abaabb161f7b738d");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    padding-top: 20vh;
+}
+
+#about {
+    background-image: url("http://36.media.tumblr.com/0e6de64dfdb029ea1535d9f43df037d9/tumblr_mubmomLFIT1r479smo2_1280.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.btn-default {
+    color: white;
+    background-color: black;
+    position: relative;
+    margin-right: 0 auto;
+}
+
+#btns {
+    text-align: center;
+}
+
+#line {
+    border: solid 1px;
+    width: 50%;
+    border-color: white;
+    margin: 15px 0px 20px 0px;
+    margin-left: 25%;
+}
+
+.btn:hover {
+    transform: scale(1.2,1.2,1.2) translate3D(0,0,0);
+    background-color: black;
+    border: 2px solid aqua;
+    color: aqua;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    text-shadow: 2px 3px 6px #4d4d4d;
+    font-size: 50px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: red;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar {
+    opacity: .75;
+}
+
+.navbar {
+    background: black;
+}
+
+#photo {
+    padding-top: 8vh;
+    float: right;
+    margin-right: 10%;
+}
+
+#info {
+    font-size: 1.75em;
+    background: rgba(0, 0, 0, .4);
+    color: white;
+    padding-left: 25%;
+    text-shadow: #000 0 1em 2em;
+}
+
+#head {
+    color: aqua;
+    font-size: 4em !important;
+    padding-top: 12vh;
+    padding-left: 25%;
+    text-shadow: #000 0 .1em .1em;
+}
+
+li {
+    list-style: none;
+    text-align:center;
+}
+
+.portfolio > li > img:hover{
+    border: 1px solid red;
+}
+
+.portfolio {
+    text-align:left;
+    padding-bottom:5vh;
+    padding-left:12vw;
+}
+
+div.img{
+    margin:5px;
+    border: 1px solid white;
+}
