@@ -86,7 +86,7 @@ h2 {
 }
 
 h1 {
-    color: white;
+    color: white !important;
     text-align: center;
     text-shadow: 2px 3px 6px #4d4d4d;
     font-size: 50px;
